@@ -1,0 +1,11 @@
+name: u2net
+channels:
+  - conda-forge
+  - anaconda
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.6
+  - pip
+  - pip:
+    - -e .
